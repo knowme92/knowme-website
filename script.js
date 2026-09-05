@@ -5,12 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
     ========================================================= */
 
     /*
-        ՀԻՄԱ default-ը հայերեն է։
-
-        Երբ կայքը հրապարակենք և ուզես
-        հիմնական լեզուն լինի English՝
-
-        "hy" փոխիր "en"
+        Public կայքի հիմնական լեզուն English է։
+        HY / RU / EN կոճակներով օգտատերը կարող է
+        փոխել ամբողջ կայքի լեզուն։
     */
 
     const DEFAULT_LANGUAGE = "en";
@@ -71,10 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
         hy: {
 
             pageTitle:
-                "Web Service | Կայքերի պատրաստում",
+                "KNOWME Studio | Կայքերի պատրաստում Հայաստանում",
 
             metaDescription:
-                "Ստեղծում եմ ժամանակակից և արագ կայքեր՝ մատչելի գներով։",
+                "KNOWME Studio-ն ստեղծում է ժամանակակից, արագ, անվտանգ և mobile-friendly կայքեր բիզնեսների, մասնագետների և անհատական նախագծերի համար Հայաստանում։",
 
 
             nav: [
@@ -413,6 +410,72 @@ document.addEventListener("DOMContentLoaded", () => {
             },
 
 
+
+            faq: {
+
+                badge:
+                    "ՀՏՀ",
+
+                title:
+                    "Հաճախ տրվող հարցեր",
+
+                description:
+                    "Կայքերի պատրաստման, գների, թարմացումների և անվտանգության մասին հաճախ տրվող հարցեր։",
+
+                items: [
+
+                    {
+                        question:
+                            "Որքա՞ն արժե կայքի պատրաստումը։",
+
+                        answer:
+                            "Starter կայքերը սկսվում են 35,000 դրամից, Business կայքերը՝ 70,000 դրամից։ Custom նախագծերի գինը որոշվում է պահանջները քննարկելուց հետո։"
+                    },
+
+                    {
+                        question:
+                            "Որքա՞ն ժամանակ է պահանջվում կայք պատրաստելու համար։",
+
+                        answer:
+                            "Ժամկետը կախված է նախագծի չափից և բարդությունից։ Պահանջները քննարկելուց հետո կարող եմ նշել մոտավոր պատրաստման ժամկետը։"
+                    },
+
+                    {
+                        question:
+                            "Կայքը կաշխատի՞ հեռախոսով և պլանշետով։",
+
+                        answer:
+                            "Այո։ Կայքերը հարմարեցվում են համակարգիչների, պլանշետների և բջջային հեռախոսների համար։"
+                    },
+
+                    {
+                        question:
+                            "Հնարավո՞ր է հետո թարմացնել կամ զարգացնել կայքը։",
+
+                        answer:
+                            "Այո։ Հետագայում հնարավոր է ավելացնել նոր էջեր, բաժիններ և ֆունկցիոնալություն։"
+                    },
+
+                    {
+                        question:
+                            "Ապահովո՞ւմ եք կայքի անվտանգությունը։",
+
+                        answer:
+                            "Այո։ Կիրառվում են անվտանգության հիմնական կարգավորումներ և անվտանգ մշակման սկզբունքներ։ Պաշտպանության մակարդակը կախված է կայքի կառուցվածքից և hosting-ից։"
+                    },
+
+                    {
+                        question:
+                            "Ինչպե՞ս կապվել KNOWME Studio-ի հետ։",
+
+                        answer:
+                            "Կարող եք կապվել Telegram-ով կամ WhatsApp-ով՝ օգտագործելով ստորև գտնվող Contact բաժինը։"
+                    }
+
+                ]
+
+            },
+
             contact: {
 
                 badge:
@@ -489,10 +552,10 @@ document.addEventListener("DOMContentLoaded", () => {
         en: {
 
             pageTitle:
-                "Web Service | Website Development",
+                "KNOWME Studio | Website Development in Armenia",
 
             metaDescription:
-                "Modern, fast and affordable websites for small businesses.",
+                "KNOWME Studio creates modern, fast, secure and mobile-friendly websites for businesses, professionals and personal brands in Armenia.",
 
 
             nav: [
@@ -843,6 +906,72 @@ document.addEventListener("DOMContentLoaded", () => {
             },
 
 
+
+            faq: {
+
+                badge:
+                    "FAQ",
+
+                title:
+                    "Frequently Asked Questions",
+
+                description:
+                    "Common questions about website development, pricing, updates and security.",
+
+                items: [
+
+                    {
+                        question:
+                            "How much does a website cost?",
+
+                        answer:
+                            "Starter websites begin at 35,000 AMD. Business websites begin at 70,000 AMD. Custom projects are priced after discussing the requirements."
+                    },
+
+                    {
+                        question:
+                            "How long does website development take?",
+
+                        answer:
+                            "Development time depends on the size and complexity of the project. After discussing the requirements, I can provide an estimated timeline."
+                    },
+
+                    {
+                        question:
+                            "Will my website work on mobile devices?",
+
+                        answer:
+                            "Yes. Websites are designed to work properly on desktop computers, tablets and mobile phones."
+                    },
+
+                    {
+                        question:
+                            "Can the website be updated later?",
+
+                        answer:
+                            "Yes. The website can be expanded later with new pages, sections and functionality."
+                    },
+
+                    {
+                        question:
+                            "Do you provide website security?",
+
+                        answer:
+                            "Yes. Basic security configuration and secure development practices are applied. The exact level of protection depends on the website architecture and hosting environment."
+                    },
+
+                    {
+                        question:
+                            "How can I contact KNOWME Studio?",
+
+                        answer:
+                            "You can contact KNOWME Studio through Telegram or WhatsApp using the contact section below."
+                    }
+
+                ]
+
+            },
+
             contact: {
 
                 badge:
@@ -919,10 +1048,10 @@ document.addEventListener("DOMContentLoaded", () => {
         ru: {
 
             pageTitle:
-                "Web Service | Создание сайтов",
+                "KNOWME Studio | Создание сайтов в Армении",
 
             metaDescription:
-                "Современные, быстрые и доступные сайты для малого бизнеса.",
+                "KNOWME Studio создаёт современные, быстрые, безопасные и адаптивные сайты для бизнеса, специалистов и личных проектов в Армении.",
 
 
             nav: [
@@ -1272,6 +1401,72 @@ document.addEventListener("DOMContentLoaded", () => {
 
             },
 
+
+
+            faq: {
+
+                badge:
+                    "FAQ",
+
+                title:
+                    "Часто задаваемые вопросы",
+
+                description:
+                    "Частые вопросы о разработке сайтов, ценах, обновлениях и безопасности.",
+
+                items: [
+
+                    {
+                        question:
+                            "Сколько стоит создание сайта?",
+
+                        answer:
+                            "Стоимость Starter-сайта начинается от 35 000 AMD, Business-сайта — от 70 000 AMD. Цена индивидуального проекта определяется после обсуждения требований."
+                    },
+
+                    {
+                        question:
+                            "Сколько времени занимает разработка сайта?",
+
+                        answer:
+                            "Срок зависит от размера и сложности проекта. После обсуждения требований я смогу назвать примерный срок разработки."
+                    },
+
+                    {
+                        question:
+                            "Будет ли сайт работать на мобильных устройствах?",
+
+                        answer:
+                            "Да. Сайты адаптируются для компьютеров, планшетов и мобильных телефонов."
+                    },
+
+                    {
+                        question:
+                            "Можно ли обновлять сайт в будущем?",
+
+                        answer:
+                            "Да. В дальнейшем можно добавлять новые страницы, разделы и функциональность."
+                    },
+
+                    {
+                        question:
+                            "Вы обеспечиваете безопасность сайта?",
+
+                        answer:
+                            "Да. Применяются базовые настройки безопасности и безопасные принципы разработки. Точный уровень защиты зависит от архитектуры сайта и хостинга."
+                    },
+
+                    {
+                        question:
+                            "Как связаться с KNOWME Studio?",
+
+                        answer:
+                            "Вы можете связаться с KNOWME Studio через Telegram или WhatsApp, используя раздел контактов ниже."
+                    }
+
+                ]
+
+            },
 
             contact: {
 
@@ -1745,6 +1940,56 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         /* =====================================================
+           FAQ
+        ===================================================== */
+
+        setText(
+            "#faq .section-badge",
+            t.faq.badge
+        );
+
+
+        setText(
+            "#faq h2",
+            t.faq.title
+        );
+
+
+        setText(
+            "#faq .section-description",
+            t.faq.description
+        );
+
+
+        $$(".faq-item")
+            .forEach((item, index) => {
+
+                const data =
+                    t.faq.items[index];
+
+
+                if (!data) {
+                    return;
+                }
+
+
+                setText(
+                    "summary",
+                    data.question,
+                    item
+                );
+
+
+                setText(
+                    "p",
+                    data.answer,
+                    item
+                );
+
+            });
+
+
+        /* =====================================================
            CONTACT
         ===================================================== */
 
@@ -2187,6 +2432,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ".advantage-card," +
             ".project-card," +
             ".price-card," +
+            ".faq-item," +
             ".contact-info," +
             ".contact-form-wrapper"
         );
