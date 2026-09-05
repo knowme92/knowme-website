@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "hy" փոխիր "en"
     */
 
-    const DEFAULT_LANGUAGE = "hy";
+    const DEFAULT_LANGUAGE = "en";
 
     const WHATSAPP_PHONE = "37498400729";
 
